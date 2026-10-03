@@ -70,6 +70,7 @@ return {
         "DraconicStyleVariant",
         "Old",
         "Dragon3D",
+        "Halloween",
     },
 
     Icons = {
@@ -156,6 +157,16 @@ return {
                 Y2    = 0.47,
                 Size  = 0.09,
                 Image = "rbxassetid://106889903724713",  -- imagen con los 2 ojos ya dibujados
+            },
+        },
+
+        Halloween = {
+            LabelES = "Halloween",
+            LabelEN = "Halloween",
+
+            Layers = {
+                { Image = "rbxassetid://87283021793777", Movement = "None", Scale = 1.2 },
+                { Image = "rbxassetid://129715683537822", Movement = "Spin", Speed = 75, Direction = 1, Style = "Organic", Scale = 2.6 },
             },
         },
 
