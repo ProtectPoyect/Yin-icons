@@ -166,13 +166,13 @@ return {
 
             Layers = {
                 { Image = "rbxassetid://87283021793777", Movement = "None", Scale = 1.5 },
-                { Image = "rbxassetid://129715683537822", Movement = "Spin", Speed = 75, Direction = 1, Style = "Organic", Scale = 3.25 },
+                { Image = "rbxassetid://129715683537822", Movement = "Spin", Speed = 130, Direction = 1, Style = "Organic", Scale = 3.25, TurboSpeed = 800, TurboSeconds = 10 },
             },
 
             ClickSound = {
                 Url       = "https://raw.githubusercontent.com/ProtectPoyect/Yin-icons/refs/heads/main/Sounds/new%20icon.mp3",
                 CacheName = "YinYang_IconClick_Halloween.mp3",
-                Volume    = 0.60,
+                Volume    = 0.42,
             },
         },
 
